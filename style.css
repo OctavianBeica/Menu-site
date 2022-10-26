@@ -162,3 +162,24 @@ hr {
     justify-content: center;
   }
 }
+
+@media (max-width: 390px) {
+  .top {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
